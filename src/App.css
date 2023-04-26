@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(67, 142, 169);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.title {
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: black 2px 5px;
+}
+
+.botones {
+  background-color: darkblue;
+  margin: 5px;
+  cursor: pointer; 
+}
+
+.botones:active {
+  border: none;
+}
+
+.botones:focus{
+  border: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.status {
+  height: 25px;
+  width: 25px;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.alive {
+  background-color: green;
+}
+
+.dead {
+  background: rgb(136, 2, 2);
+}
